@@ -1,0 +1,12 @@
+@use 'reset';
+@use 'vars';
+
+body {
+  font-family: sans-serif;
+}
+
+html, body, #root {
+  height: 100vh;
+  background: rgb(9,9,121);
+  background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(19,135,205,1) 100%, rgba(0,178,223,1) 100%);
+}
